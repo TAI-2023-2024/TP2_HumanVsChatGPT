@@ -1,1 +1,0 @@
-Hello! This is a text file in .txt format created with the purpose of testing the fcm script!
