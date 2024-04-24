@@ -5,8 +5,9 @@
 
 using namespace std;
 
-//////
-// subclasses
+const char separator = ',';
+
+#pragma region subclasses
 class markovf
 {
     private:
@@ -43,10 +44,15 @@ class markovf
         /// @brief 
         /// @param mt model type, for file name  
         /// @return 
-        int GenerateModel(string mt)
+        int GenerateModel(string mt = "")
         {
-            ofstream f (mt+"fcm.txt");
+            ofstream f ("fcm.txt");
             
+            if(f.fail())
+            {
+                cout << "FCM\\markovf: file open failed";
+                return 1;
+            }
             // set header
             string fileHeader = "Seq";
             for (int i = 0 ;i<symbols.length();i++)
@@ -85,19 +91,24 @@ class markovf
 
         
 };
+#pragma endregion
 
+#pragma region Declarations
 // input parameters (defaults)
 float alpha = 0.5;          //smoothing factor
 int k = 2;                  // Model order
 string filename = "none";   // File name
 string modelType = "H";     // Model Type: (H) Human, (A) chatGPT/AI
-char separator = ',';
 
 // Markov model info
 markovf markv_freq;
 string w; // sliding window
 unordered_map<string, string> inputflags;
+#pragma endregion
 
+
+
+#pragma region helper_functions
 unordered_map<string, string> getFlags(int argc, char* argv[]) {
     unordered_map<string, string> flags;
     for (int i = 1; i < argc; ++i) {
@@ -123,7 +134,9 @@ unordered_map<string, string> getFlags(int argc, char* argv[]) {
     }
     return flags;
 }
+#pragma endregion
 
+#pragma region MAIN
 int main(int argc, char* argv[])
 {
     
@@ -133,7 +146,7 @@ int main(int argc, char* argv[])
         filename = inputflags.at("f");
     }
     else {
-        cout << "No filename given\n";
+        cout << "FCM: No filename given\n";
         return 1;
     }
 
@@ -145,6 +158,10 @@ int main(int argc, char* argv[])
         k = stof(inputflags.at("k"));
     }
 
+    cout<< "FCM starting parameter set: " << endl;
+    cout<< "-> File: "<< filename << endl;
+    cout<< "-> k (window size): "<< k << endl;
+    cout<< "-> a (smoothing factor): "<< alpha << endl;
 
     // read file to memory
     ifstream file(filename);    
@@ -165,7 +182,8 @@ int main(int argc, char* argv[])
 
     // auxiliar counter to end process in case of file buffer change
     uint64_t auxc = 0;
-
+    int l = 0;
+    w = "";
     do{
         // check file 
         if(auxc >= file_size)
@@ -176,22 +194,32 @@ int main(int argc, char* argv[])
             return 1;            
         }
 
-        b = file_buf->sgetc();
+        b = file_buf->sgetc();        
 
-        // window management
-        if (w.length() == k) {
-            w.erase(0, 1);
-        }        
-        w += b;
-
-        // markov model update
-        if (w.length() == k) {
+        // markov model update        
+        l = (int)w.length();
+        if (l == k) 
+        {
+            cout << l << " " << k<<endl;
             markv_freq.Increment(w,b);
         }
+
+        // window management
+        w.push_back(b);
+        cout << "-- byte: " << b << "|window: " << w << endl;
+        if (w.length() > k) 
+        {
+            w.erase(0, 1);
+        }
+
+        cout << "-- byte: " << b << "|window: " << w << endl;
 
     }while(file_buf->snextc() != EOF);
     
     file.close();
 
+    markv_freq.GenerateModel("Test_");
+
     return 0;
 }
+#pragma endregion
