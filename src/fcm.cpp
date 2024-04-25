@@ -4,6 +4,7 @@
 #include <sstream>
 #include <fstream>
 #include <unordered_map>
+#include <iomanip>
 
 using namespace std;
 
@@ -59,16 +60,16 @@ public:
         outputFile << modelType << endl;
         outputFile << to_string(k) << endl;
 
-        outputFile << markv_freq.size() << std::endl;
+        outputFile << markv_freq.size() << endl;
 
         for (const auto& pair : markv_freq) {
-            outputFile << pair.first << std::endl;
+            outputFile << pair.first << endl;
 
-            outputFile << pair.second.size() << std::endl;
+            outputFile << pair.second.size() << endl;
 
             for (const auto& innerPair : pair.second) {
-                outputFile << innerPair.first << " ";
-                outputFile << innerPair.second << std::endl;
+                outputFile << innerPair.first << endl;
+                outputFile << innerPair.second << endl;
             }
         }
 
