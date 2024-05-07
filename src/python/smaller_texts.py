@@ -7,17 +7,20 @@ texts_original = []
 ai_texts = 0
 human_texts = 0
 
-while ai_texts < 10 and human_texts < 10:
+while ai_texts < 10 or human_texts < 10:
     filename = random.choice(os.listdir(".\\example\\AI_Human_Dataset\\test"))
-    if ('ai' in filename):
+    if ('ai' in filename) and ai_texts < 10:
         ai_texts += 1
         texts_original.append(filename)
-    if ('human' in filename):
+    if ('human' in filename) and human_texts < 10:
         human_texts += 1
         texts_original.append(filename)
 
 texts_original.sort()
 texts_original.sort(key=len)
+
+for item in texts_original:
+    print(item)
 
 for filename in texts_original:
     file = open('.\\example\\AI_Human_Dataset\\test\\' + filename, 'r', errors='ignore')
