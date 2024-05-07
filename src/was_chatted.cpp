@@ -15,8 +15,8 @@ string humanTextFilename = "none";
 string chatGPTTextFilename = "none";
 string targetTextFilename = "none";
 
-int alpha = 1;
-int k = 3;
+double alpha = 1;
+double k = 3;
 
 unordered_map<string, string> inputflags;
 
@@ -63,12 +63,11 @@ unordered_map<string, unordered_map<char, int>> getModel(string filename, string
     string line = "";
 
     string fileModelType;
-    int fileK;
+    double fileK;
 
     getline(file, fileModelType);
-
     getline(file, line);
-    fileK = stoi(line);
+    fileK = stof(line);
 
     if (modelType != fileModelType) {
         std::cout << "This file is does not have the expected model type " << modelType << ". File model type :  " << fileModelType << endl;
@@ -168,7 +167,7 @@ int main(int argc, char* argv[])
     }
 
     if (inputflags.count("a")) {
-        alpha = stoi(inputflags.at("a"));
+        alpha = stof(inputflags.at("a"));
     }
     else {
         std::cout << "No alpha given" << endl;
@@ -176,7 +175,7 @@ int main(int argc, char* argv[])
     }
 
     if (inputflags.count("k")) {
-        k = stoi(inputflags.at("k"));
+        k = stof(inputflags.at("k"));
     }
     else {
         std::cout << "No k given" << endl;
@@ -224,7 +223,7 @@ int main(int argc, char* argv[])
             chatGPTModelSymbolCount = chatGPTModel[window][letter];
             chatGPTModelTotalSymbolCount = getTotalCounts(chatGPTModel[window]);
 
-            probability = (double)(chatGPTModelSymbolCount + alpha) / (double)(chatGPTModelTotalSymbolCount + alpha*k);
+            probability = (double)(chatGPTModelSymbolCount + alpha) / (double)(chatGPTModelTotalSymbolCount + alpha * k);
 
             chatGPTModelInfo += -log2(probability);
 
