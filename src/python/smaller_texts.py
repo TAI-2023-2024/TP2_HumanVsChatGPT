@@ -21,7 +21,7 @@ texts_original.sort(key=len)
 
 for item in texts_original:
     print(item)
-
+    
 for filename in texts_original:
     file = open('.\\example\\AI_Human_Dataset\\test\\' + filename, 'r', errors='ignore')
     text = file.readline()
