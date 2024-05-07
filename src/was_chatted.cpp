@@ -16,7 +16,7 @@ string chatGPTTextFilename = "none";
 string targetTextFilename = "none";
 
 double alpha = 1;
-double k = 3;
+double k = 2;
 
 unordered_map<string, string> inputflags;
 
@@ -46,6 +46,14 @@ unordered_map<string, string> getFlags(int argc, char* argv[]) {
     return flags;
 }
 
+string cleanUpLine(string line){
+    size_t last_non_whitespace = line.find_last_not_of("\r\n");
+    if (last_non_whitespace != std::string::npos) {
+        line = line.substr(0, last_non_whitespace + 1);
+    }
+    return line;
+}
+
 unordered_map<string, unordered_map<char, int>> getModel(string filename, string modelType, int k) {
 
     unordered_map<string, unordered_map<char, int>> map;
@@ -65,7 +73,8 @@ unordered_map<string, unordered_map<char, int>> getModel(string filename, string
     string fileModelType;
     double fileK;
 
-    getline(file, fileModelType);
+    getline(file, line);
+    fileModelType = cleanUpLine(line);
     getline(file, line);
     fileK = stof(line);
 
@@ -87,6 +96,7 @@ unordered_map<string, unordered_map<char, int>> getModel(string filename, string
     for (size_t i = 0; i < mapSize; ++i) {
         string outerKey;
         getline(file, outerKey);
+        outerKey = cleanUpLine(outerKey);
 
         size_t innerMapSize;
         getline(file, line);
@@ -98,6 +108,7 @@ unordered_map<string, unordered_map<char, int>> getModel(string filename, string
         for (size_t j = 0; j < innerMapSize; ++j) {
             string innerKey;
             getline(file, innerKey);
+            innerKey = cleanUpLine(innerKey);
 
             if (outerKey.find_first_not_of(' ') == string::npos) {
                 innerKey = " ";
