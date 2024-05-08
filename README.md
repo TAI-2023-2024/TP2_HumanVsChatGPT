@@ -56,4 +56,6 @@ Example:
 
 Some files in our repository are very large, which lead to the need to use Git Large File System (GLSF) which means that if the quota is reached, some files may not be correctly downloaded when cloaning the repository.
 
-For this reason, we compress the full repo which is downloadable from the following link : 
+For this reason, a new repository was created without the original dataset file so it does not consume a lot of credit when cloning. This repo is available at https://github.com/goncalo-machado/TAI-2-Assignment
+
+If for some reason it is not possible to clone, we compressed the full repo which is downloadable from the following link :
