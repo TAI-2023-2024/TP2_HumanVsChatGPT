@@ -1,0 +1,360 @@
+25_ai_116324.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_116324.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 244.860629
+ChatGPT Model Info: 164.598159
+Target Text Type : ChatGPT
+25_ai_194780.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_194780.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 657.450405
+ChatGPT Model Info: 419.742026
+Target Text Type : ChatGPT
+25_ai_248497.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_248497.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 498.081648
+ChatGPT Model Info: 460.530962
+Target Text Type : ChatGPT
+25_ai_26619.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_26619.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1163.924366
+ChatGPT Model Info: 879.844797
+Target Text Type : ChatGPT
+25_ai_267496.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_267496.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 745.929162
+ChatGPT Model Info: 564.311439
+Target Text Type : ChatGPT
+25_ai_272490.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_272490.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 792.441533
+ChatGPT Model Info: 513.783099
+Target Text Type : ChatGPT
+25_ai_28125.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_28125.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 437.340664
+ChatGPT Model Info: 214.237732
+Target Text Type : ChatGPT
+25_ai_29587.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_29587.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 619.747152
+ChatGPT Model Info: 520.049593
+Target Text Type : ChatGPT
+25_ai_344807.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_344807.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1318.495645
+ChatGPT Model Info: 1050.261559
+Target Text Type : ChatGPT
+25_ai_43188.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_ai_43188.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 531.449136
+ChatGPT Model Info: 406.455882
+Target Text Type : ChatGPT
+25_human_183848.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_183848.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 464.355095
+ChatGPT Model Info: 669.326358
+Target Text Type : Human
+25_human_261152.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_261152.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 722.805746
+ChatGPT Model Info: 1101.714508
+Target Text Type : Human
+25_human_269207.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_269207.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1059.991076
+ChatGPT Model Info: 1259.367410
+Target Text Type : Human
+25_human_297328.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_297328.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 451.843906
+ChatGPT Model Info: 677.844465
+Target Text Type : Human
+25_human_297991.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_297991.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 418.710296
+ChatGPT Model Info: 814.545481
+Target Text Type : Human
+25_human_302685.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_302685.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 371.184268
+ChatGPT Model Info: 520.966270
+Target Text Type : Human
+25_human_312544.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_312544.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 346.794909
+ChatGPT Model Info: 467.182104
+Target Text Type : Human
+25_human_339587.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_339587.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 428.607479
+ChatGPT Model Info: 534.397445
+Target Text Type : Human
+25_human_391991.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_391991.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 596.542103
+ChatGPT Model Info: 718.642772
+Target Text Type : Human
+25_human_421303.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\25_human_421303.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 788.366441
+ChatGPT Model Info: 1035.361374
+Target Text Type : Human
+50_ai_116324.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_116324.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 537.920127
+ChatGPT Model Info: 401.514583
+Target Text Type : ChatGPT
+50_ai_194780.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_194780.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1349.440260
+ChatGPT Model Info: 909.137027
+Target Text Type : ChatGPT
+50_ai_248497.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_248497.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1026.772141
+ChatGPT Model Info: 896.282862
+Target Text Type : ChatGPT
+50_ai_26619.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_26619.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 2394.932849
+ChatGPT Model Info: 1848.284941
+Target Text Type : ChatGPT
+50_ai_267496.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_267496.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1641.557801
+ChatGPT Model Info: 1224.798470
+Target Text Type : ChatGPT
+50_ai_272490.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_272490.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1781.636355
+ChatGPT Model Info: 1202.221907
+Target Text Type : ChatGPT
+50_ai_28125.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_28125.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 971.372590
+ChatGPT Model Info: 555.007017
+Target Text Type : ChatGPT
+50_ai_29587.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_29587.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1337.283690
+ChatGPT Model Info: 1133.003129
+Target Text Type : ChatGPT
+50_ai_344807.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_344807.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 2738.130232
+ChatGPT Model Info: 2334.743210
+Target Text Type : ChatGPT
+50_ai_43188.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_ai_43188.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1173.359538
+ChatGPT Model Info: 934.090352
+Target Text Type : ChatGPT
+50_human_183848.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_183848.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 906.440931
+ChatGPT Model Info: 1431.399123
+Target Text Type : Human
+50_human_261152.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_261152.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1500.387599
+ChatGPT Model Info: 2241.684947
+Target Text Type : Human
+50_human_269207.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_269207.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 2232.868013
+ChatGPT Model Info: 2623.026457
+Target Text Type : Human
+50_human_297328.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_297328.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 964.703844
+ChatGPT Model Info: 1464.699409
+Target Text Type : Human
+50_human_297991.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_297991.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 913.580869
+ChatGPT Model Info: 1641.765727
+Target Text Type : Human
+50_human_302685.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_302685.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 787.359145
+ChatGPT Model Info: 1076.262858
+Target Text Type : Human
+50_human_312544.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_312544.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 760.235739
+ChatGPT Model Info: 1032.855216
+Target Text Type : Human
+50_human_339587.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_339587.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 925.185502
+ChatGPT Model Info: 1167.987561
+Target Text Type : Human
+50_human_391991.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_391991.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1450.055768
+ChatGPT Model Info: 1659.548268
+Target Text Type : Human
+50_human_421303.txt 
+-> Human Text Filename: .\example\AI_Human_Dataset\train\ModelType_H_K_8_human_train_004.txt
+-> ChatGPT Text Filename: .\example\AI_Human_Dataset\train\ModelType_A_K_8_ai_train_004.txt
+-> Target Text Filename: .\example\AI_Human_Dataset\smaller_test\50_human_421303.txt
+-> Alpha: 1.000000
+-> K: 8.000000
+Human Model Info: 1655.641562
+ChatGPT Model Info: 2246.661862
+Target Text Type : Human
