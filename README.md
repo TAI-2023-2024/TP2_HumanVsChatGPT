@@ -52,10 +52,10 @@ Example:
 ./bin/was_chatted -h  example/AI_Human_Dataset/train/ModelType_H_K_4_human_train_002.txt -c example/AI_Human_Dataset/train/ModelType_A_K_4_ai_train_002.txt -t example/AI_Human_Dataset/test/ai_1913.txt -k 4 -a 10
 ```
 
-## Zip File
+## Large File Problems
 
 Some files in our repository are very large, which lead to the need to use Git Large File System (GLSF) which means that if the quota is reached, some files may not be correctly downloaded when cloaning the repository.
 
 For this reason, a new repository was created without the original dataset file so it does not consume a lot of credit when cloning. This repo is available at https://github.com/goncalo-machado/TAI-2-Assignment
 
-If for some reason it is not possible to clone, we compressed the full repo which is downloadable from the following link :
+If for some reason it is not possible to clone, we compressed the full repo which is downloadable from the following link : https://drive.google.com/file/d/1eQikfBlcP07T84sCU43gkWv4l9A1XcAO/view?usp=sharing
